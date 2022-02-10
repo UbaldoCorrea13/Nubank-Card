@@ -5,6 +5,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  background-size: cover;
 }
 .container {
   background-color: #820ad1;
@@ -20,6 +21,9 @@ img[alt='mastercard'] {
 img[alt='chip'] {
   width: 40%;
   transform: rotate(90deg);
+}
+img[alt='nfc'] {
+  width: 9%;
 }
 .footer img {
   width: 35%;
